@@ -1,0 +1,16 @@
+dev:
+    commit 1
+        - file.txt 2 new lines
+        - file2.txt new file
+    commit 2
+        - file.txt deleted 1 line
+
+master:
+    commit 1
+        - file.txt 2 new lines
+        - file2.txt new file
+    commit 2
+        - file.txt deleted 1 line
+
+
+dev -> master
